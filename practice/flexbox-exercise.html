@@ -9,13 +9,11 @@
       rel="stylesheet"
     />
     <style>
-
       div {
         font-family: Roboto;
       }
 
-      .container-e
-      {
+      .container-e {
         width: 300px;
         border-style: solid;
         border-width: 1px;
@@ -59,16 +57,14 @@
         object-fit: cover;
         border-radius: 25px;
         margin-right: 15px;
-
       }
 
       .info {
         width: 200px;
-        
       }
 
       .button-flex {
-       width: 100px;
+        width: 100px;
       }
 
       .button {
@@ -96,20 +92,55 @@
         font-size: 13px;
       }
 
+      .container-f {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(95, 67, 199);
+        color: white;
+        padding: 10px 15px;
+        margin-bottom: 100px;
+      }
+
+      .home {
+        font-weight: bold;
+      }
+
+      .search {
+        font-family: Arial;
+        font-size: 12px;
+        width: 500px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        height: 30px;
+        padding-left: 10px;
+        border: none;
+        border-radius: 25px;
+      }
+
+      .download {
+        background-color: rgb(95, 67, 199);
+        color: white;
+        font-size: 16px;
+        margin-left: 40px;
+        border-width: 1px;
+        border-color: white;
+        padding: 8px 15px;
+        border-style: solid;
+        border-radius: 2px;
+      }
     </style>
   </head>
   <body>
     <div class="container-e">
-
       <div class="flexbox-e">
         <div>Home</div>
         <div class="notification-e">14</div>
       </div>
 
       <div class="flexbox-e">
-        <div>notification-e
-  
-        </div>
+        <div>notification-e</div>
         <div class="notification-e">3</div>
       </div>
 
@@ -117,14 +148,11 @@
         <div>Messages</div>
         <div class="notification-e">5</div>
       </div>
-
     </div>
 
-
     <div class="container-g">
-
       <div class="user-flexbox">
-        <img class="pic" src="pic-1.jpeg" alt="">
+        <img class="pic" src="pic-1.jpeg" alt="" />
         <div class="info">
           <div class="name">Oliver</div>
           <div class="nickname">The cat</div>
@@ -134,7 +162,7 @@
       </div>
 
       <div class="user-flexbox">
-        <img class="pic" src="pic-2.jpeg" alt="">   
+        <img class="pic" src="pic-2.jpeg" alt="" />
         <div class="info">
           <div class="name">Mimi</div>
           <div class="nickname">Sleepy dog</div>
@@ -144,7 +172,7 @@
       </div>
 
       <div class="user-flexbox">
-        <img class="pic" src="pic-3.jpeg" alt="">
+        <img class="pic" src="pic-3.jpeg" alt="" />
         <div class="info">
           <div class="name">Rex</div>
           <div class="nickname">Happy rabbit</div>
@@ -152,20 +180,12 @@
         </div>
         <button class="button">Follow</button>
       </div>
-
     </div>
-
-
 
     <div class="container-f">
       <div class="home">Home</div>
-      <input type="text" placeholder="Search">
-      <button class="download">Download</button>
-
+      <input class="search" type="text" placeholder="Search" />
+      <div class="download-div"><button class="download">Download</button></div>
     </div>
-
-
-
-
   </body>
 </html>
