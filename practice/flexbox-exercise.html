@@ -21,6 +21,7 @@
         border-color: rgb(166, 163, 163);
         padding: 10px;
         margin-bottom: 100px;
+        margin-top: 100px;
       }
 
       .flexbox-e {
@@ -63,10 +64,6 @@
         width: 200px;
       }
 
-      .button-flex {
-        width: 100px;
-      }
-
       .button {
         background-color: rgb(73, 138, 236);
         color: white;
@@ -75,6 +72,7 @@
         border: none;
         cursor: pointer;
         font-weight: bold;
+        width: 100px;
       }
 
       .name {
@@ -130,9 +128,142 @@
         border-style: solid;
         border-radius: 2px;
       }
+
+      .container-mail {
+        border-style: solid;
+        border-width: 1px;
+        box-shadow: 0 0 3px rgb(0, 0, 0, 0.25);
+        border: none;
+        width: 400px;
+        padding: 10px 15px;
+        align-items: center;
+        border-radius: 4px;
+        margin-left: 20px;
+      }
+
+      .all-inboxes-label {
+        font-size: 14px;
+        color: rgb(97, 94, 94);
+        margin-bottom: 20px;
+      }
+
+      .box-mail {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .profic-pic-div {
+        margin-right: 10px;
+      }
+
+      .profile-pic {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+
+      .mail-info {
+        flex: 1;
+      }
+
+      .mail-header {
+        display: flex;
+        margin-bottom: 3px;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .mail-title {
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .mail-time {
+        color: rgb(97, 94, 94);
+        font-size: 14px;
+      }
+
+      .mail-subtitle {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+
+      .mail-description {
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(97, 94, 94);
+      }
+
     </style>
   </head>
   <body>
+
+    <div class="container-mail">
+      <div class="all-inboxes-label">ALL INBOXES</div>
+
+        <div class="box-mail">
+          <div class="profic-pic-div">
+            <img class="profile-pic" src="pic-1.jpeg" alt="" />
+          </div>
+          <div class="mail-info">
+            <div class="mail-header">
+              <div class="mail-title">Chewy Promotions</div>
+              <div class="mail-time">4:58 PM</div>
+            </div>
+            <div class="mail-subtitle">Biggest sales of the year!</div>
+            <div class="mail-description">
+              Hey there! We're writing to tell you about our...
+            </div>
+          </div>
+      
+      </div>
+
+
+        <div class="box-mail">
+          <div class="profic-pic-div">
+            <img class="profile-pic" src="pic-2.jpeg" alt="" />
+          </div>
+
+          <div class="mail-info">
+            <div class="mail-header">
+              <div class="mail-title">Chewy Promotions</div>
+              <div class="mail-time">4:58 PM</div>
+            </div>
+            <div class="mail-subtitle">Biggest sales of the year!</div>
+            <div class="mail-description">
+              Hey there! We're writing to tell you about our...
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="box-mail">
+          <div class="profic-pic-div">
+            <img class="profile-pic" src="pic-3.jpeg" alt="" />
+          </div>
+
+          <div class="mail-info">
+            <div class="mail-header">
+              <div class="mail-title">Chewy Promotions</div>
+              <div class="mail-time">4:58 PM</div>
+            </div>
+            <div class="mail-subtitle">Biggest sales of the year!</div>
+            <div class="mail-description">
+              Hey there! We're writing to tell you about our...
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+
+    
+    </div>
+
     <div class="container-e">
       <div class="flexbox-e">
         <div>Home</div>
@@ -186,25 +317,6 @@
       <div class="home">Home</div>
       <input class="search" type="text" placeholder="Search" />
       <div class="download-div"><button class="download">Download</button></div>
-    </div>
-
-    <div class="container-mail">
-      <div class="all-inboxes">ALL INBOXES</div>
-      <div class="box-mail">
-        <div class="profile-pic">
-          <img src="pic-1.jpeg" alt="" />
-        </div>
-        <div class="mail-info">
-          <div class="mail-title-info">
-            <div class="mail-title">Chewy Promotions</div>
-            <div class="mail-time">4:58 PM</div>
-          </div>
-          <div class="mail-subtitle">Biggest sales of the year!</div>
-          <div class="mail-description">
-            Hey there! We're writing to tell you about our...
-          </div>
-        </div>
-      </div>
     </div>
   </body>
 </html>
