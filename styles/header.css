@@ -9,7 +9,7 @@
   top: 0;
   left: 0;
   right: 0;
-
+  z-index: 100;
   background-color: #fff;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -103,6 +103,24 @@
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
+}
+
+.notificantions-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+
+  border-radius: 10px;
+  padding: 2px 5px;
+  background-color: rgb(214, 10, 10);
+
+  color: white;
+  font-size: 11px;
+  font-family: Roboto, Arial;
 }
 
 .upload-icon {

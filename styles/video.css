@@ -15,9 +15,8 @@
   margin-left: 12px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
-
 
 .username,
 .stats {
@@ -25,7 +24,6 @@
   margin-left: 12px;
   color: rgb(96, 96, 96);
 }
-
 
 .username {
   margin-bottom: 4px;
@@ -37,10 +35,24 @@
 }
 
 .profile-pic {
-  width: 40px;
+  width: 36px;
   border-radius: 25px;
 }
 
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 8px;
+  right: 5px;
 }
