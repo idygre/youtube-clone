@@ -32,3 +32,22 @@
   font-family: Roboto;
   font-size: 10px;
 }
+
+@media (min-width: 1200px) {
+  .sidebar {
+    width: 150px;
+  }
+
+  .sidebar-link {
+    flex-direction: row;
+    height: 50px;
+    justify-content: start;
+    padding-left: 20px;
+  }
+
+  .sidebar-title {
+    font-family: Roboto;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+}

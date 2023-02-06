@@ -17,7 +17,7 @@
   </head>
   <body>
     <!--Header-->
-    <div class="header">
+    <header class="header">
       <div class="left-section">
         <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="" />
         <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
@@ -66,10 +66,10 @@
           alt=""
         />
       </div>
-    </div>
+    </header>
 
-    <!--Side header-->
-    <div class="sidebar">
+    <!--Sidebar-->
+    <nav class="sidebar">
       <div class="sidebar-link">
         <img src="icons/home.svg" alt="" />
 
@@ -78,334 +78,723 @@
 
       <div class="sidebar-link">
         <img src="icons/explore.svg" alt="" />
-        <div class="sidebar-title">Home</div>
+        <div class="sidebar-title">Explore</div>
       </div>
 
       <div class="sidebar-link">
         <img src="icons/subscriptions.svg" alt="" />
-        <div class="sidebar-title">Home</div>
+        <div class="sidebar-title">Subscriptions</div>
       </div>
 
       <div class="sidebar-link">
         <img src="icons/originals.svg" alt="" />
-        <div class="sidebar-title">Home</div>
+        <div class="sidebar-title">Originals</div>
       </div>
 
       <div class="sidebar-link">
         <img src="icons/youtube-music.svg" alt="" />
-        <div class="sidebar-title">Home</div>
+        <div class="sidebar-title">Youtube Music</div>
       </div>
 
       <div class="sidebar-link">
         <img src="icons/library.svg" alt="" />
-        <div class="sidebar-title">Home</div>
+        <div class="sidebar-title">Library</div>
       </div>
-    </div>
+    </nav>
 
-    <div class="video-grid">
-      <!-- Video info 1 -->
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <a
-            href="https://www.youtube.com/watch?v=6sfdGK4RZB0&ab_channel=IsabelBejar"
-            target="_blank"
-            ><img class="thumbnail" src="thumbnails/thumbnail-1.webp"
-          /></a>
-
-          <div class="video-time">32:45</div>
-        </div>
-
-        <div class="video-info-grid">
-          <div class="channel-pics">
-            <a href="https://www.youtube.com/@isabelbejar" target="_blank"
-              ><img
-                class="profile-pic"
-                src="channel-pictures/channel-1.jpeg"
-                alt=""
-            /></a>
-            <div class="channel-pic-tooltip">
-              <img
-                class="profile-pic-tooltip"
-                src="channel-pictures/channel-1.jpeg"
-                alt=""
-              />
-
-              <div class="info-tooltip">
-                <div class="author-tooltip">Isabel Bejar</div>
-                <div class="subs-tooltip">4.05K subscribers</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="video-info">
+    <main>
+      <!--Videos grid section-->
+      <section class="video-grid">
+        <!-- Video info 1 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
             <a
-              class="video-title-link"
               href="https://www.youtube.com/watch?v=6sfdGK4RZB0&ab_channel=IsabelBejar"
               target="_blank"
-            >
-              <p class="video-title">
-                AT HOME NAILS | HOW TO, FAKE NAILS *NO ACRYLIC
-              </p>
-            </a>
-            <a
-              class="username-link"
-              target="_blank"
-              href="https://www.youtube.com/@isabelbejar"
-            >
-              <p class="username">Isabel Bejar</p></a
-            >
-
-            <p class="stats">757K views &#183; 2 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video info 2 -->
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <a
-            href="https://www.youtube.com/watch?v=VQcO_PYVx3o&ab_channel=SoKrispyMedia"
-            target="_blank"
-            ><img class="thumbnail" src="thumbnails/thumbnail-2.webp"
-          /></a>
-
-          <div class="video-time">8:12</div>
-        </div>
-
-        <div class="video-info-grid">
-          <div class="channel-pics">
-            <a href="https://www.youtube.com/@SoKrispyMedia" target="_blank"
-              ><img
-                class="profile-pic"
-                src="channel-pictures/channel-2.jpeg"
-                alt=""
+              ><img class="thumbnail" src="thumbnails/thumbnail-1.webp"
             /></a>
-            <div class="channel-pic-tooltip">
-              <img
-                class="profile-pic-tooltip"
-                src="channel-pictures/channel-2.jpeg"
-                alt=""
-              />
 
-              <div class="info-tooltip">
-                <div class="author-tooltip">SoKrispyMedia</div>
-                <div class="subs-tooltip">2.37M subscribers</div>
+            <div class="video-time">32:45</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a href="https://www.youtube.com/@isabelbejar" target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-1.jpeg"
+                  alt=""
+              /></a>
+
+              <!--Tooltip: hover over channel profile picture for more info-->
+              <!--Position absolute goes inside position relative-->
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-1.jpeg"
+                  alt=""
+                />
+                <div class="info-tooltip">
+                  <div class="author-tooltip">Isabel Bejar</div>
+                  <div class="subs-tooltip">4.05K subscribers</div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="video-info">
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=6sfdGK4RZB0&ab_channel=IsabelBejar"
+                target="_blank"
+              >
+                <p class="video-title">
+                  AT HOME NAILS | HOW TO, FAKE NAILS *NO ACRYLIC
+                </p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@isabelbejar"
+              >
+                <p class="username">Isabel Bejar</p></a
+              >
+
+              <p class="stats">757K views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video info 2 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
             <a
-              class="video-title-link"
               href="https://www.youtube.com/watch?v=VQcO_PYVx3o&ab_channel=SoKrispyMedia"
               target="_blank"
-            >
-              <p class="video-title">Making MrBeast’s Squid Game in 10 Days</p>
-            </a>
-            <a
-              class="username-link"
-              target="_blank"
-              href="https://www.youtube.com/@SoKrispyMedia"
-            >
-              <p class="username">SoKrispyMedia</p></a
-            >
-
-            <p class="stats">18M &#183; 1 years ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video info 3 -->
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <a
-            href="https://www.youtube.com/watch?v=DZqQjhpK4Ao&ab_channel=TheGrahamStephanShow"
-            target="_blank"
-            ><img class="thumbnail" src="thumbnails/thumbnail-3.webp"
-          /></a>
-
-          <div class="video-time">13:30</div>
-        </div>
-
-        <div class="video-info-grid">
-          <div class="channel-pics">
-            <a
-              href="https://www.youtube.com/@TheGrahamStephanShow"
-              target="_blank"
-              ><img
-                class="profile-pic"
-                src="channel-pictures/channel-3.jpeg"
-                alt=""
+              ><img class="thumbnail" src="thumbnails/thumbnail-2.webp"
             /></a>
-            <div class="channel-pic-tooltip">
-              <img
-                class="profile-pic-tooltip"
-                src="channel-pictures/channel-3.jpeg"
-                alt=""
-              />
 
-              <div class="info-tooltip">
-                <div class="author-tooltip">Isabel Bejar</div>
-                <div class="subs-tooltip">15M subscribers</div>
+            <div class="video-time">8:12</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a href="https://www.youtube.com/@SoKrispyMedia" target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-2.jpeg"
+                  alt=""
+              /></a>
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-2.jpeg"
+                  alt=""
+                />
+
+                <div class="info-tooltip">
+                  <div class="author-tooltip">SoKrispyMedia</div>
+                  <div class="subs-tooltip">2.37M subscribers</div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="video-info">
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=VQcO_PYVx3o&ab_channel=SoKrispyMedia"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Making MrBeast’s Squid Game in 10 Days
+                </p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@SoKrispyMedia"
+              >
+                <p class="username">SoKrispyMedia</p></a
+              >
+
+              <p class="stats">18M &#183; 1 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video info 3 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
             <a
-              class="video-title-link"
               href="https://www.youtube.com/watch?v=DZqQjhpK4Ao&ab_channel=TheGrahamStephanShow"
               target="_blank"
-            >
-              <p class="video-title">
-                This Millennial MAXED OUT 6 Credit Cards
-              </p>
-            </a>
-            <a
-              class="username-link"
-              target="_blank"
-              href="https://www.youtube.com/@TheGrahamStephanShow"
-            >
-              <p class="username">The Graham Stephan Show</p></a
-            >
-
-            <p class="stats">64K views &#183; 5 days ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video info 4 -->
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <a
-            href="https://www.youtube.com/watch?v=Huq5HJ0v-Hc&ab_channel=Cut"
-            target="_blank"
-            ><img class="thumbnail" src="thumbnails/thumbnail-4.webp"
-          /></a>
-
-          <div class="video-time">9:39</div>
-        </div>
-
-        <div class="video-info-grid">
-          <div class="channel-pics">
-            <a href="https://www.youtube.com/@cut" target="_blank"
-              ><img
-                class="profile-pic"
-                src="channel-pictures/channel-4.jpeg"
-                alt=""
+              ><img class="thumbnail" src="thumbnails/thumbnail-3.webp"
             /></a>
+
+            <div class="video-time">13:30</div>
           </div>
 
-          <div class="video-info">
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a
+                href="https://www.youtube.com/@TheGrahamStephanShow"
+                target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-3.jpeg"
+                  alt=""
+              /></a>
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-3.jpeg"
+                  alt=""
+                />
+
+                <div class="info-tooltip">
+                  <div class="author-tooltip">The Graham Stephan Show</div>
+                  <div class="subs-tooltip">964K subscribers</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=DZqQjhpK4Ao&ab_channel=TheGrahamStephanShow"
+                target="_blank"
+              >
+                <p class="video-title">
+                  This Millennial MAXED OUT 6 Credit Cards
+                </p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@TheGrahamStephanShow"
+              >
+                <p class="username">The Graham Stephan Show</p></a
+              >
+
+              <p class="stats">64K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video info 4 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
             <a
-              class="video-title-link"
               href="https://www.youtube.com/watch?v=Huq5HJ0v-Hc&ab_channel=Cut"
               target="_blank"
-            >
-              <p class="video-title">
-                Gen-Z Singles Reject Each Other on the Button | Cut
-              </p>
-            </a>
-            <a
-              class="username-link"
-              target="_blank"
-              href="https://www.youtube.com/@cut"
-            >
-              <p class="username">Cut</p></a
-            >
-
-            <p class="stats">393K views &#183; 1 day ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video info 5 -->
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <a
-            href="https://www.youtube.com/watch?v=5Xs9dSmFEv4&ab_channel=CalebHammer"
-            target="_blank"
-            ><img class="thumbnail" src="thumbnails/thumbnail-5.webp"
-          /></a>
-
-          <div class="video-time">1:24:21</div>
-        </div>
-
-        <div class="video-info-grid">
-          <div class="channel-pics">
-            <a href="https://www.youtube.com/@CalebHammer" target="_blank"
-              ><img
-                class="profile-pic"
-                src="channel-pictures/channel-5.jpeg"
-                alt=""
+              ><img class="thumbnail" src="thumbnails/thumbnail-4.webp"
             /></a>
+
+            <div class="video-time">9:39</div>
           </div>
 
-          <div class="video-info">
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a href="https://www.youtube.com/@cut" target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-4.jpeg"
+                  alt=""
+              /></a>
+
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-4.jpeg"
+                  alt=""
+                />
+                <div class="info-tooltip">
+                  <div class="author-tooltip">Cut</div>
+                  <div class="subs-tooltip">11.4M subscribers</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=Huq5HJ0v-Hc&ab_channel=Cut"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Gen-Z Singles Reject Each Other on the Button | Cut
+                </p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@cut"
+              >
+                <p class="username">Cut</p></a
+              >
+
+              <p class="stats">393K views &#183; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video info 5 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
             <a
-              class="video-title-link"
               href="https://www.youtube.com/watch?v=5Xs9dSmFEv4&ab_channel=CalebHammer"
               target="_blank"
-            >
-              <p class="video-title">
-                24-Year Old Blows $10,000 A Month | Financial Audit
-              </p>
-            </a>
-            <a
-              class="username-link"
-              target="_blank"
-              href="https://www.youtube.com/@CalebHammer"
-            >
-              <p class="username">Isabel Bejar</p></a
-            >
-
-            <p class="stats">124K views &#183; 6 days ago</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Video info 6 -->
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <a
-            href="https://www.youtube.com/watch?v=SzJ46YA_RaA&ab_channel=DomainofScience"
-            target="_blank"
-            ><img class="thumbnail" src="thumbnails/thumbnail-6.webp"
-          /></a>
-
-          <div class="video-time">10:57</div>
-        </div>
-
-        <div class="video-info-grid">
-          <div class="channel-pics">
-            <a href="https://www.youtube.com/@domainofscience" target="_blank"
-              ><img
-                class="profile-pic"
-                src="channel-pictures/channel-6.jpeg"
-                alt=""
+              ><img class="thumbnail" src="thumbnails/thumbnail-5.webp"
             /></a>
+
+            <div class="video-time">1:24:21</div>
           </div>
 
-          <div class="video-info">
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a href="https://www.youtube.com/@CalebHammer" target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-5.jpeg"
+                  alt=""
+              /></a>
+
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-5.jpeg"
+                  alt=""
+                />
+                <div class="info-tooltip">
+                  <div class="author-tooltip">Caleb Hammer</div>
+                  <div class="subs-tooltip">153K subscribers</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=5Xs9dSmFEv4&ab_channel=CalebHammer"
+                target="_blank"
+              >
+                <p class="video-title">
+                  24-Year Old Blows $10,000 A Month | Financial Audit
+                </p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@CalebHammer"
+              >
+                <p class="username">Isabel Bejar</p></a
+              >
+
+              <p class="stats">124K views &#183; 6 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video info 6 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
             <a
-              class="video-title-link"
               href="https://www.youtube.com/watch?v=SzJ46YA_RaA&ab_channel=DomainofScience"
               target="_blank"
-            >
-              <p class="video-title">Map of Computer Science</p>
-            </a>
-            <a
-              class="username-link"
-              target="_blank"
-              href="https://www.youtube.com/@domainofscience"
-            >
-              <p class="username">Domain of Science</p></a
-            >
+              ><img class="thumbnail" src="thumbnails/thumbnail-6.webp"
+            /></a>
 
-            <p class="stats">5.1M views &#183; 5 years ago</p>
+            <div class="video-time">10:57</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a href="https://www.youtube.com/@domainofscience" target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-6.jpeg"
+                  alt=""
+              /></a>
+
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-6.jpeg"
+                  alt=""
+                />
+                <div class="info-tooltip">
+                  <div class="author-tooltip">Domain of Science</div>
+                  <div class="subs-tooltip">1.14M subscribers</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=SzJ46YA_RaA&ab_channel=DomainofScience"
+                target="_blank"
+              >
+                <p class="video-title">Map of Computer Science</p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@domainofscience"
+              >
+                <p class="username">Domain of Science</p></a
+              >
+
+              <p class="stats">5.1M views &#183; 5 years ago</p>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+
+        <!--Repeated videos for visualization-->
+
+        <!-- Video info 1 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=6sfdGK4RZB0&ab_channel=IsabelBejar"
+              target="_blank"
+              ><img class="thumbnail" src="thumbnails/thumbnail-1.webp"
+            /></a>
+
+            <div class="video-time">32:45</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a href="https://www.youtube.com/@isabelbejar" target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-1.jpeg"
+                  alt=""
+              /></a>
+
+              <!--Tooltip: hover over channel profile picture for more info-->
+              <!--Position absolute goes inside position relative-->
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-1.jpeg"
+                  alt=""
+                />
+                <div class="info-tooltip">
+                  <div class="author-tooltip">Isabel Bejar</div>
+                  <div class="subs-tooltip">4.05K subscribers</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=6sfdGK4RZB0&ab_channel=IsabelBejar"
+                target="_blank"
+              >
+                <p class="video-title">
+                  AT HOME NAILS | HOW TO, FAKE NAILS *NO ACRYLIC
+                </p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@isabelbejar"
+              >
+                <p class="username">Isabel Bejar</p></a
+              >
+
+              <p class="stats">757K views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video info 2 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=VQcO_PYVx3o&ab_channel=SoKrispyMedia"
+              target="_blank"
+              ><img class="thumbnail" src="thumbnails/thumbnail-2.webp"
+            /></a>
+
+            <div class="video-time">8:12</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a href="https://www.youtube.com/@SoKrispyMedia" target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-2.jpeg"
+                  alt=""
+              /></a>
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-2.jpeg"
+                  alt=""
+                />
+
+                <div class="info-tooltip">
+                  <div class="author-tooltip">SoKrispyMedia</div>
+                  <div class="subs-tooltip">2.37M subscribers</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=VQcO_PYVx3o&ab_channel=SoKrispyMedia"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Making MrBeast’s Squid Game in 10 Days
+                </p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@SoKrispyMedia"
+              >
+                <p class="username">SoKrispyMedia</p></a
+              >
+
+              <p class="stats">18M &#183; 1 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video info 3 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=DZqQjhpK4Ao&ab_channel=TheGrahamStephanShow"
+              target="_blank"
+              ><img class="thumbnail" src="thumbnails/thumbnail-3.webp"
+            /></a>
+
+            <div class="video-time">13:30</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a
+                href="https://www.youtube.com/@TheGrahamStephanShow"
+                target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-3.jpeg"
+                  alt=""
+              /></a>
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-3.jpeg"
+                  alt=""
+                />
+
+                <div class="info-tooltip">
+                  <div class="author-tooltip">The Graham Stephan Show</div>
+                  <div class="subs-tooltip">964K subscribers</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=DZqQjhpK4Ao&ab_channel=TheGrahamStephanShow"
+                target="_blank"
+              >
+                <p class="video-title">
+                  This Millennial MAXED OUT 6 Credit Cards
+                </p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@TheGrahamStephanShow"
+              >
+                <p class="username">The Graham Stephan Show</p></a
+              >
+
+              <p class="stats">64K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video info 4 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=Huq5HJ0v-Hc&ab_channel=Cut"
+              target="_blank"
+              ><img class="thumbnail" src="thumbnails/thumbnail-4.webp"
+            /></a>
+
+            <div class="video-time">9:39</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a href="https://www.youtube.com/@cut" target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-4.jpeg"
+                  alt=""
+              /></a>
+
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-4.jpeg"
+                  alt=""
+                />
+                <div class="info-tooltip">
+                  <div class="author-tooltip">Cut</div>
+                  <div class="subs-tooltip">11.4M subscribers</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=Huq5HJ0v-Hc&ab_channel=Cut"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Gen-Z Singles Reject Each Other on the Button | Cut
+                </p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@cut"
+              >
+                <p class="username">Cut</p></a
+              >
+
+              <p class="stats">393K views &#183; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video info 5 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=5Xs9dSmFEv4&ab_channel=CalebHammer"
+              target="_blank"
+              ><img class="thumbnail" src="thumbnails/thumbnail-5.webp"
+            /></a>
+
+            <div class="video-time">1:24:21</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a href="https://www.youtube.com/@CalebHammer" target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-5.jpeg"
+                  alt=""
+              /></a>
+
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-5.jpeg"
+                  alt=""
+                />
+                <div class="info-tooltip">
+                  <div class="author-tooltip">Caleb Hammer</div>
+                  <div class="subs-tooltip">153K subscribers</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=5Xs9dSmFEv4&ab_channel=CalebHammer"
+                target="_blank"
+              >
+                <p class="video-title">
+                  24-Year Old Blows $10,000 A Month | Financial Audit
+                </p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@CalebHammer"
+              >
+                <p class="username">Isabel Bejar</p></a
+              >
+
+              <p class="stats">124K views &#183; 6 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video info 6 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=SzJ46YA_RaA&ab_channel=DomainofScience"
+              target="_blank"
+              ><img class="thumbnail" src="thumbnails/thumbnail-6.webp"
+            /></a>
+
+            <div class="video-time">10:57</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pics">
+              <a href="https://www.youtube.com/@domainofscience" target="_blank"
+                ><img
+                  class="profile-pic"
+                  src="channel-pictures/channel-6.jpeg"
+                  alt=""
+              /></a>
+
+              <div class="channel-pic-tooltip">
+                <img
+                  class="profile-pic-tooltip"
+                  src="channel-pictures/channel-6.jpeg"
+                  alt=""
+                />
+                <div class="info-tooltip">
+                  <div class="author-tooltip">Domain of Science</div>
+                  <div class="subs-tooltip">1.14M subscribers</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-title-link"
+                href="https://www.youtube.com/watch?v=SzJ46YA_RaA&ab_channel=DomainofScience"
+                target="_blank"
+              >
+                <p class="video-title">Map of Computer Science</p>
+              </a>
+              <a
+                class="username-link"
+                target="_blank"
+                href="https://www.youtube.com/@domainofscience"
+              >
+                <p class="username">Domain of Science</p></a
+              >
+
+              <p class="stats">5.1M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
